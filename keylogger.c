@@ -50,7 +50,7 @@ static int push_next_char(char t) {
 }
 
 /*
-Here we implement our keyboard hook. We decode every keypress and we send it to the previus function to see if the patron is complete.
+Here we implement our keyboard hook. We decode every keypress and we send it to the previous function to see if the patron is complete.
 */
 static int on_key_event(struct notifier_block* nblock, unsigned long code, void* param0) {
     struct keyboard_notifier_param* param = param0;
